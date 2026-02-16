@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Personal portfolio of [YOUR NAME] — Web Developer. Projects, skills, and contact." />
+  <title>Aswin Raj M — Technology Enthusiast</title>
+
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- SEO/Open Graph (replace placeholders) -->
+  <meta property="og:title" content="[YOUR NAME] — Web Developer" />
+  <meta property="og:description" content="Portfolio — Web Developer. Projects, skills, contact." />
+  <meta property="og:type" content="website" />
+</head>
+<body class="light">
+
+  <!-- =============================
+       Header / Navigation (sticky)
+       ============================= -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Homepage">
+        <!-- Replace text with logo image if you want -->
+        <strong>Aswin Raj M</strong>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <button id="mobile-toggle" class="mobile-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul id="primary-menu" class="nav-list">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+        
+      </div>
+    </div>
+  </header>
+
+  <!-- =================
+       Hero / Home
+       ================= -->
+  <main>
+    <section id="home" class="hero section center">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <h1 class="hero-title">Hi — I’m <span class="accent">ASWIN RAJ M</span>.</h1>
+          <p class="hero-sub">I build reliable, scalable, and user-friendly digital solutions, focusing on clean design, efficient code, and data-driven insights.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <!-- Optional profile image — replace src or comment out -->
+          <img class="profile-photo" src="profile.jpg" alt="Aswin profile photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- =================
+         About
+         ================= -->
+    <section id="about" class="section container">
+      <div class="section-inner">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            
+            <p>I'm a BCA student specializing in AI, Cloud Computing, and DevOps,
+currently studying at Yenepoya Institute of Arts, Science, Commerce, and
+Management. I've worked on projects with IBM and earned certifications
+from TCS, IBM, and Coursera in areas like operating systems, data
+structures, and various technical skills. I have experience with HTML, CSS, C, SQL and
+Python and am passionate about technology and its impact on the IT
+industry. I'm always eager to learn and grow in this field.</p>
+          
+          </div>
+
+          <aside class="about-meta reveal" aria-hidden="false">
+            <ul class="meta-list">
+              <li><strong>Location:</strong> Kasaragod, Kerala</li>
+              <li><strong>Availability:</strong> Open to internships </li>
+              <li><strong>Resume:</strong> <a href="Aswin-Resume.pdf" download>Download</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================
+         Skills
+         ================= -->
+    <section id="skills" class="section container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal" aria-label="Frontend skills">
+          <h3>Programming</h3>
+          <p>Python, C, HTML, CSS, JavaScript, SQL</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Tools</h3>
+          <p>GitHub, VS Code</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Concepts</h3>
+          <p>Problem Solving, Logical Thinking</p>
+        </div>
+
+
+
+        <div class="skill-card reveal">
+          <h3>Soft Skills</h3>
+          <p>Communication, Teamwork, Time Management</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================
+         Projects
+         ================= -->
+    <section id="projects" class="section container">
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="muted reveal">Selected work — each card includes a short problem + solution and links.</p>
+
+      <div class="projects-grid">
+        <!-- Project card (copy as needed) -->
+        <article class="project-card reveal">
+          <h3 class="project-title">Quiz App</h3>
+          <p class="project-desc">Simple quiz app with timers, lifelines and animated transitions. Built with vanilla JS.</p>
+          <img src="quiz.png" class="project-img">
+          <p class="project-tech"><strong>Tech:</strong> HTML · CSS · JS</p>
+          <div class="project-links">
+<a class="btn btn-sm btn-outline" href="https://aswinn47.github.io/Quiz-App">Live Demo</a>
+            <a class="btn btn-sm btn-outline" href="https://github.com/aswinn47/Quiz-App" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3 class="project-title">Go Ride</h3>
+          <p class="project-desc">GoRide is a demo ride-booking website built using HTML, CSS, and JavaScript.</p>
+                    <img src="ride.png" class="project-img">
+
+          <p class="project-tech"><strong>Tech:</strong> HTML · CSS · JS</p>
+          <div class="project-links">
+<a class="btn btn-sm btn-outline" href="https://aswinn47.github.io/Go-Ride">Live Demo</a>
+            <a class="btn btn-sm btn-outline" href="https://github.com/aswinn47/Go-Ride" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3 class="project-title">Credit Score</h3>
+          <p class="project-desc">Simple and user-friendly Credit Score Checker web application built with Python (Flask) and HTML/CSS.</p>
+                    <img src="credit.png" class="project-img">
+
+          <p class="project-tech"><strong>Tech:</strong>HTML · CSS · Python</p>
+          <div class="project-links">
+<a class="btn btn-sm btn-outline" href="https://credit-score-pq7e.onrender.com/">Live Demo</a>
+            <a class="btn btn-sm btn-outline" href="https://github.com/aswinn47/Credit-Score" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+
+
+      
+
+      <div class="more-projects reveal">
+        <a class="btn btn-outline" href="https://github.com/aswinn47">See more on GitHub →</a>
+      </div>
+    </section>
+
+    <!-- =================
+         Experience / Education (optional)
+         ================= -->
+<section id="experience" class="section container">
+  <h2 class="section-title reveal">Education</h2>
+
+  <div class="education-grid">
+
+    <!-- College Card -->
+    <div class="education-card reveal">
+<h3>🎓 Yenepoya Institute of Arts, Science, Commerce, and Management</h3>
+      <p class="muted">Jun 2023 — May 2026 · BCA</p>
+      <p><strong>CGPA:</strong> 9.38</p>
+    </div>
+
+    <!-- School Card -->
+    <div class="education-card reveal">
+      <h3>ST Thomas HSS Thomapuram</h3>
+      <p class="muted">2021 — 2023 · Commerce</p>
+      <p><strong>Percentage:</strong> 92.33%</p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- =================
+         Contact
+         ================= -->
+         
+<section id="contact" class="section container">
+  <h2 class="section-title reveal">Contact</h2>
+
+  <!-- ADD THIS DIV -->
+  <div class="contact-wrapper">
+    
+    <aside class="contact-info reveal" aria-label="Contact information">
+      <p>Phone: +91 8921213069</p>
+      <p>Email: aswinraj1021@gmail.com</p>
+<br>
+<div class="socials">
+  <a class="btn btn-sm btn-outline" href="https://github.com/Aswinn47">GitHub</a>
+  <a class="btn btn-sm btn-outline" href="https://www.linkedin.com/in/aswinraj21">LinkedIn</a>
+  <a class="btn btn-sm btn-outline" href="mailto:aswinraj1021@gmail.com">Email</a>
+</div>
+
+    </aside>
+
+  </div> <!-- END contact-wrapper -->
+</section>
+
+  </main>
+
+  <!-- =================
+       Footer
+       ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Aswin Raj M. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
